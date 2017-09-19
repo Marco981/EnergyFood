@@ -27,7 +27,6 @@ p {
 }
 
 img {
-	max-width: 26%;
 	height: auto;
 	margin-top: 3.3rem;
 	margin-left: 2.2rem;
@@ -93,6 +92,7 @@ hr {
 
 .container h3 {
 	padding-top: 2rem;
+	font-size: 4.5rem;
 }
 
 #images {
@@ -108,26 +108,36 @@ hr {
 
 .flex {
 	display: flex;
-	flex-direction: column;
+	flex-flow: column wrap;
+	align-items: center;
 }
 
 
-.flex img {
-	align-self: center;
-	
+.steps {
+	display: flex;	
+	flex-wrap: wrap;
+	align-items: center;
 }
 
-#steps p{
-	display: inline-block;
+.steps p{
+	width: 70%;
 	}
 
 .number {
-	display: inline-block;
+	width: 1%;
 	padding:1.5rem;
 	border:2px solid #CF6D17;
 	border-radius: 100%;
 	margin-right: 2rem;
+	text-align: center;
+	color: #CF6D17;
 }
+
+.store {
+	display: block;
+	width: 70%
+}
+
 
 #reviews {
 	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/back-customers.jpg");
@@ -138,9 +148,13 @@ hr {
 
 #reviews img {
 	border-radius: 50%;
+	margin-right: 4%;
+}
+
+#reviews h2, #reviews p {
+	color:white;
 }
 
 cite {
-	display: block;
-	vertical-align: middle;
-}
+	display: flex;
+	}
