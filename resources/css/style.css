@@ -126,11 +126,15 @@ hr {
 .number {
 	width: 1%;
 	padding:1.5rem;
-	border:2px solid #CF6D17;
+	border:4px solid #CF6D17;
 	border-radius: 100%;
 	margin-right: 2rem;
 	text-align: center;
 	color: #CF6D17;
+}
+
+#cities img {
+	margin: 4rem auto;
 }
 
 .store {
