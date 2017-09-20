@@ -1,8 +1,5 @@
 html {
 	font-size: 16px;
-}
-
-h1, h2, h3, p, span, li, label, input{
 	font-family: "Lato",arial,sans-serif;
 	font-weight: ;
 	color:gray;
@@ -95,20 +92,31 @@ i {
 	font-weight: 300;
 }
 
-#main span {
+#button-1, #button-2 {
 	display: inline-block;
 	font-size: 3rem;
 	margin-top:3rem;
 	margin-right: 3rem;
 	padding: 2rem 3.5rem;
-	background-color: #CF6D17;
+	background:transparent;
+	border: 2px solid #CF6D17;
 	border-radius: 6.5rem;
 	color: white;
+}
+
+#button-1 {
+	background-color: #CF6D17;
 }
 
 .container {
 	width: 90%;
 	margin:0 auto;
+}
+
+#herobox {
+	position: absolute;
+	top: 20%;
+	left:8%;
 }
 
 #images {
@@ -167,9 +175,11 @@ i {
 
 #reviews {
 	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/back-customers.jpg");
-	background-position: fixed;
-	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
 }
 
 #reviews img {
@@ -241,12 +251,21 @@ footer {
 
 	#main h1 {
 		margin: 0;
-		font-size: 3rem;
+		font-size: 3.5rem;
 	}
 
 	#main span {
 		font-size: 1.5rem;
 		padding:1rem 1.5rem;
+	}
+
+	#main a {
+		font-size:1.125rem;
+		padding:1rem 1.5rem;
+	}
+
+	#herobox {
+		top:30%;
 	}
 
 	.container, #head-container {
@@ -429,8 +448,8 @@ footer {
 		margin: 0 auto;
 		display: flex;
 		justify-content: space-between;
-		text-align:center;
 	}
-}
+
+
 
 
