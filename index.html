@@ -10,38 +10,52 @@
 <body>
 	<div id="background">
 		<div id="head">
-			<img src="resources/images/logo-white.png">
-			<i class="fa fa-bars fa-4x" aria-hidden="true"></i>
+			<div id="head-container">
+				<img src="resources/images/logo-white.png">
+				<ul>
+					<li>FOOD DELIVERY</li>
+					<li>HOW IT WORKS</li>
+					<li>OUR CITIES</li>
+					<li>SIGN UP</li>
+				</ul>
+				<i class="fa fa-bars fa-4x" aria-hidden="true"></i>
+			</div>
 		</div>
 		<div id="main">
-			<h1>GOODBYE JUNK FOOD.HELLO SUPER HEALTHY MEALS</h1>
-			<span>I'm hungry</span>
-			<span>show me more</span>
+			<div class="container">
+				<h1>GOODBYE JUNK FOOD.HELLO SUPER HEALTHY MEALS</h1>
+				<span>I'm hungry</span>
+				<span>show me more</span>
+			</div>
 		</div>
 	</div>
-	<div class="container">
+	<div class="container" id="resize">
 		<h2>GET FOOD FAST — NOT FAST FOOD</h2>
 		<hr>
 		<p>Hello, we're Energy Food, your new premium food delivery service.Â We know you're always busy. No time for cooking. So let us take care of that, we're really good at it, we promise!</p>
-		<div>
-			<i class="fa fa-clock-o fa-5x"></i>
-			<h3>UP TO 365 DAYS/YEAR</h3>
-			<p>Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that's your style.</p>
-		</div>
-		<div>
-			<i class="fa fa-bars fa-5x"></i>
-			<h3>READY IN 20 MINUTES</h3>
-			<p>You're only twenty minutes away from your delicious and super healthy meals delivered right to your home. We work with the best chefs in each town to ensure that you're 100% happy.</p>
-		</div>
-		<div>
-			<i class="fa fa-bars fa-5x"></i>
-			<h3>100% ORGANIC</h3>
-			<p>All our vegetables are fresh, organic and local. Animals are raised without added hormones or antibiotics. Good for your health, the environment, and it also tastes better!</p>
-		</div>
-		<div>
-			<i class="fa fa-shopping-cart fa-5x"></i>
-			<h3>ORDER ANYTHING</h3>
-			<p>We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It's up to you!</p>
+	</div>
+	<div class="container row-container">
+		<div class="row">
+			<div class="column">
+				<i class="fa fa-clock-o fa-5x"></i>
+				<h3>UP TO 365 DAYS/YEAR</h3>
+				<p>Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that's your style.</p>
+			</div>
+			<div class="column">
+				<i class="fa fa-bars fa-5x"></i>
+				<h3>READY IN 20 MINUTES</h3>
+				<p>You're only twenty minutes away from your delicious and super healthy meals delivered right to your home. We work with the best chefs in each town to ensure that you're 100% happy.</p>
+			</div>
+			<div class="column">
+				<i class="fa fa-bars fa-5x"></i>
+				<h3>100% ORGANIC</h3>
+				<p>All our vegetables are fresh, organic and local. Animals are raised without added hormones or antibiotics. Good for your health, the environment, and it also tastes better!</p>
+			</div>
+			<div class="column">
+				<i class="fa fa-shopping-cart fa-5x"></i>
+				<h3>ORDER ANYTHING</h3>
+				<p>We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It's up to you!</p>
+			</div>
 		</div>
 	</div>
 	<div id="images">
@@ -58,170 +72,194 @@
 		<h2>HOW IT WORKS — SIMPLE AS 1, 2, 3</h2>
 		<hr>
 		<div class="flex">
+			<div id="iphone">
 				<img src="resources/images/app-iPhone.png">
+			</div>
 			<div>
 				<div class="steps">
 					<div class="number">1</div>
 					<p>Choose the subscription plan that best fits your needs and sign up today.</p>
 				</div>
 				<div class="steps">
-					<div class="number"><span>2</span></div>
+					<div class="number">2</div>
 					<p>Order your delicious meal using our mobile app or website. Or you can even call us!</p>
 				</div>
 				<div class="steps">
 					<div class="number">3</div>
 					<p>Enjoy your meal after less than 20 minutes. See you the next time!</p>
 				</div>
+				<div id="download">
+			<img class="store" src="resources/images/download-app.svg">
+			<img class="store" src="resources/images/download-app-android.png">
+		</div>
 			</div>
 		</div>
-		<img class="store" src="resources/images/download-app.svg">
-		<img class="store" src="resources/images/download-app-android.png">
+
 		<div id="cities">
 			<h2>WE'RE CURRENTLY IN THESE CITIES</h2>
 			<hr>
-			<img src="resources/images/lisbon-3.jpg">
-			<h3>LISBON</h3>
-			<i></i>
-			<p>1600+ happy eaters</p>
-			<i></i>
-			<p>60+ top chefs</p>
-			<i></i>
-			<p>@omnifood_lx</p>
-			<img src="resources/images/san-francisco.jpg">
-			<h3>SAN FRANCISCO</h3>
-			<i></i>
-			<p>3700+ happy eaters</p>
-			<i></i>
-			<p>160+top chefs</p>
-			<i></i>
-			<p>@omnifood_sf</p>
-			<img src="resources/images/berlin.jpg">
-			<h3>BERLIN</h3>
-			<i></i>
-			<p>2300+ happy eaters</p>
-			<i></i>
-			<p>110+ top chefs</p>
-			<i></i>
-			<p>@omnifood_berlin</p>
-			<img src="resources/images/london.jpg">
-			<h3>LONDON</h3>
-			<i></i>
-			<p>1200+ happy eaters</p>
-			<i></i>
-			<p>50+ top chefs</p>
-			<i></i>
-			<p>@omnifood_london</p>
+			<div class="flex-wrap">
+				<div class="city">
+					<img src="resources/images/lisbon-3.jpg">
+					<h3>LISBON</h3>
+					<p><i class="fa fa-user" aria-hidden="true"></i>1600+ happy eaters</p>
+					<p><i class="fa fa-star" aria-hidden="true"></i>60+ top chefs</p>
+					<p><i class="fa fa-twitter" aria-hidden="true"></i>@omnifood_lx</p>
+				</div>
+				<div class="city">
+					<img src="resources/images/san-francisco.jpg">
+					<h3>SAN FRANCISCO</h3>
+					<p><i class="fa fa-user" aria-hidden="true"></i>3700+ happy eaters</p>
+					<p><i class="fa fa-star" aria-hidden="true"></i>160+top chefs</p>
+					<p><i class="fa fa-twitter" aria-hidden="true"></i>@omnifood_sf</p>
+				</div>
+				<div class="city">
+					<img src="resources/images/berlin.jpg">
+					<h3>BERLIN</h3>
+					<p><i class="fa fa-user" aria-hidden="true"></i>2300+ happy eaters</p>
+					<p><i class="fa fa-star" aria-hidden="true"></i>110+ top chefs</p>
+					<p><i class="fa fa-twitter" aria-hidden="true"></i>@omnifood_berlin</p>
+				</div>
+				<div class="city">
+					<img src="resources/images/london.jpg">
+					<h3>LONDON</h3>
+					<i></i>
+					<p><i class="fa fa-user" aria-hidden="true"></i>1200+ happy eaters</p>
+					<p><i class="fa fa-star" aria-hidden="true"></i>50+ top chefs</p>
+					<p><i class="fa fa-twitter" aria-hidden="true"></i>@omnifood_london</p>
+				</div>
+			</div>
 		</div>
 	</div>
 	<div id="reviews">
 		<div class="container">
 			<h2>OUR CUSTOMERS CAN'T LIVE WITHOUT US</h2>
 			<hr>
-			<blockquote>
-				<p>Energy Food is just awesome! I just launched a startup which leaves me with no time for cooking, so Energy Food is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
-				</p>
+			<div class="flex-wrap">
+					<blockquote>
+						<p>Energy Food is just awesome! I just launched a startup which leaves me with no time for cooking, so Energy Food is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
+						</p>
+							<cite>
+								<img src="resources/images/customer-1.jpg">
+								<p>Alberto Duncan</p>
+							</cite>
+					</blockquote>
+				<blockquote>
+					<p>Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon, but no one comes even close to Energy Food. Me and my family are so in love!</p>
 					<cite>
-						<img src="resources/images/customer-1.jpg">
-						<p>Alberto Duncan<p>
+						<img src="resources/images/customer-2.jpg">
+						<p>Joana Silva</p>
 					</cite>
-			</blockquote>
-			<blockquote>
-				<p>Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon, but no one comes even close to Energy Food. Me and my family are so in love!</p>
-				<cite>
-					<img src="resources/images/customer-2.jpg">
-					<p>Joana Silva</p>
-				</cite>
-			</blockquote>
-			<blockquote>
-				<p>I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Energy Food. Best food delivery service in the Bay Area. Keep up the great work!</p>
-				<cite>
-					<img src="resources/images/customer-3.jpg">
-					<p>Milton Chapman</p>
-				</cite>
-			</blockquote>
+				</blockquote>
+				<blockquote>
+					<p>I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Energy Food. Best food delivery service in the Bay Area. Keep up the great work!</p>
+					<cite>
+						<img src="resources/images/customer-3.jpg">
+						<p>Milton Chapman</p>
+					</cite>
+				</blockquote>
+			</div>
 		</div>
 	</div>
-	<div class="container">
+	<div id="plans">
 		<h2>START EATING HEALTHY TODAY</h2>
 		<hr>
-		<div id="premium">
-			<h3>PREMIUM</h3>
-			<p>$399 / <span>month</span></p>
-			<p>That's only 13.30$ per meal</p>
-			<i></i>
-			<p>1 meal every day</p>
-			<i></i>
-			<p>Order 24/7</p>
-			<i></i>
-			<p>Access to newest creations</p>
-			<i></i>
-			<p>Free delivery</p>
-			<span>Sign up now</span>
-		</div>
-		<div id="premium">
-			<h3>PRO</h3>
-			<p>$149 / <span>month</span></p>
-			<p>That's only 14.90$ per meal</p>
-			<i></i>
-			<p>1 meal 10 days/month
-</p>
-			<i></i>
-			<p>Order 24/7</p>
-			<i></i>
-			<p>Access to newest creations</p>
-			<i></i>
-			<p>Free delivery</p>
-			<span>Sign up now</span>
-		</div>
-		<div id="premium">
-			<h3>STARTER</h3>
-			<p>19$ / <span>meal</span></p>
-			<i></i>
-			<p>1 meal</p>
-			<i></i>
-			<p>Order from 8 am to 12 pm</p>
-			<i></i>
-			<i></i>
-			<p>Free delivery</p>
-			<span>Sign up now</span>
+		<div class="flex-wrap" id="plan-row">
+			<div class="column" id="plan">
+					<h3>PREMIUM</h3>
+					<p><span>$399</span>/month</p>
+					<p>That's only 13.30$ per meal</p>
+					<i></i>
+					<p>1 meal every day</p>
+					<i></i>
+					<p>Order 24/7</p>
+					<i></i>
+					<p>Access to newest creations</p>
+					<i></i>
+					<p>Free delivery</p>
+					<div id="button"><a>Sign up now</a></div>
+			</div>
+			<div class="column" id="plan">
+				<h3>PRO</h3>
+				<p><span>$399</span>/month</p>
+				<p>That's only 14.90$ per meal</p>
+				<i></i>
+				<p>1 meal 10 days/month</p>
+				<i></i>
+				<p>Order 24/7</p>
+				<i></i>
+				<p>Access to newest creations</p>
+				<i></i>
+				<p>Free delivery</p>
+				<div id="button"><a>Sign up now</a></div>
+			</div>
+			<div class="column" id="plan">
+				<h3>STARTER</h3>
+				<p><span>$19</span>/meal</p>
+				<i></i>
+				<p>1 meal</p>
+				<i></i>
+				<p>Order from 8 am to 12 pm</p>
+				<i></i>
+				<i></i>
+				<p>Free delivery</p>
+				<div id="button"><a>Sign up now</a></div>
+			</div>
 		</div>
 	</div>
 		<div class="container">
 			<h2>WE'RE HAPPY TO HEAR FROM YOU</h2>
 			<hr>
-			<form>
-				<label for="name">Name</label>
-				<input type="text" id="name">
-				<label for="email">Email</label>
-				<input type="email" id="email">
-				<label for="">How did you find us?</label>
-				<select id="select">
-					<option>Friends</option>
-					<option>Search Engine</option>
-					<option>Advertisement</option>
-					<option>Other</option>
-				</select>
-				<label for="checkbox">Newsletter?</label>
-				<input type="checkbox" id="checkbox">Yes, Please!
-				<label for="textarea">Drop us a line</label>
-				<textarea id="textarea"></textarea>
-				<input type="submit" name="submit">
+			<form class="column">
+				<div class="form-style">
+					<label for="name"><p>Name</p></label>
+					<input type="text" class="form-item" id="name">
+				</div>
+				<div class="form-style">
+					<label for="email"><p>Email</p></label>
+					<input type="email" class="form-item" id="email">
+				</div>
+				<div class="form-style">
+					<label for="">How did you find us?</label>
+					<select id="select">
+						<option>Friends</option>
+						<option>Search Engine</option>
+						<option>Advertisement</option>
+						<option>Other</option>
+					</select>
+				</div>
+				<div class="form-style">
+					<label for="checkbox">Newsletter?</label>
+					<input type="checkbox" id="checkbox"><p>Yes, Please!</p>
+				</div>
+				<div class="form-style">
+					<label for="textarea">Drop us a line</label>
+					<textarea id="textarea"></textarea>
+				</div>
+				<input type="submit" id="submit" value="Send it!">
 			</form>
 		</div>
 		<footer>
-			<ul>
-				<li>About us</li>
-				<li>Blog</li>
-				<li>Press</li>
-				<li>iOS App</li>
-				<li>Android App</li>
-			</ul>
-			<i class="fa fa-facebook-official" aria-hidden="true"></i>
-			<i class="fa fa-twitter" aria-hidden="true"></i>
-			<i class="fa fa-google-plus-official" aria-hidden="true"></i>
-			<i class="fa fa-instagram" aria-hidden="true"></i>
-			<p>Build with <i class="fa fa-heart" aria-hidden="true"></i>
- in the beautiful city of Manchester, UK</p>
+			<div class="footer-row">
+				<div>
+					<ul>
+						<li>About us</li>
+						<li>Blog</li>
+						<li>Press</li>
+						<li>iOS App</li>
+						<li>Android App</li>
+					</ul>
+				</div>
+				<div>
+					<i class="fa fa-facebook-official" aria-hidden="true"></i>
+					<i class="fa fa-twitter" aria-hidden="true"></i>
+					<i class="fa fa-google-plus-official" aria-hidden="true"></i>
+					<i class="fa fa-instagram" aria-hidden="true"></i>
+				</div>
+			</div>
+			<div class="footer-row">
+				<p>Build with <i class="fa fa-heart" aria-hidden="true"></i> in the beautiful city of Manchester, UK</p>
+			</div>
 		</footer>
 </body>
 </html>
