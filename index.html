@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Energy Food</title>
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="resources/font-awesome/css/font-awesome.min.css">
@@ -10,10 +12,11 @@
 </head>
 <body>
 	<div id="background">
-		<div id="head">
+		<nav>
 			<div id="head-container">
-				<img src="resources/images/logo-white.png">
-				<ul>
+				<img class="logo" src="resources/images/logo-white.png">
+				<img class="logo-black" src="resources/images/logo.png">
+				<ul class="main-nav js--main-nav">
 					<li>FOOD DELIVERY</li>
 					<li>HOW IT WORKS</li>
 					<li>OUR CITIES</li>
@@ -21,25 +24,25 @@
 				</ul>
 				<i class="fa fa-bars fa-4x" aria-hidden="true"></i>
 			</div>
-		</div>
+		</nav>
 		<div id="main">
 			<div class="container">
 				<div id="herobox">
-					<h1>GOODBYE JUNK FOOD.HELLO SUPER HEALTHY MEALS</h1>
-					<a id="button-1">I'm hungry</a>
-					<a id="button-2">show me more</a>
+					<h1>GOODBYE JUNK FOOD.<br>HELLO SUPER HEALTHY MEALS</h1>
+					<a class="js--scroll-to-plans" id="button-1">I'm hungry</a>
+					<a class="js--scroll-to-start" id="button-2">show me more</a>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="container" id="resize">
+	<div class="container js--section-features" id="resize">
 		<h2>GET FOOD FAST — NOT FAST FOOD</h2>
 		<hr>
 		<p>Hello, we're Energy Food, your new premium food delivery service.We know you're always busy. No time for cooking. So let us take care of that, we're really good at it, we promise!</p>
 	</div>
 	<div class="container row-container">
-		<div class="row">
-			<div class="column animated fadeIn">
+		<div class="row js--wp-1">
+			<div class="column">
 				<i class="fa fa-clock-o fa-5x"></i>
 				<h3>UP TO 365 DAYS/YEAR</h3>
 				<p>Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that's your style.</p>
@@ -62,20 +65,22 @@
 		</div>
 	</div>
 	<div id="images">
-		<img src="resources/images/1.jpg">
-		<img src="resources/images/2.jpg">
-		<img src="resources/images/3.jpg">
-		<img src="resources/images/4.jpg">
-		<img src="resources/images/5.jpg">
-		<img src="resources/images/6.jpg">
-		<img src="resources/images/7.jpg">
-		<img src="resources/images/8.jpg">
+		<ul class="meals-showcase">
+			<li><figure class="meal-photo"><img src="resources/images/1.jpg"></figure></li>
+			<li><figure class="meal-photo"><img src="resources/images/2.jpg"></figure></li>
+			<li><figure class="meal-photo"><img src="resources/images/3.jpg"></figure></li>
+			<li><figure class="meal-photo"><img src="resources/images/4.jpg"></figure></li>
+			<li><figure class="meal-photo"><img src="resources/images/5.jpg"></figure></li>
+			<li><figure class="meal-photo"><img src="resources/images/6.jpg"></figure></li>
+			<li><figure class="meal-photo"><img src="resources/images/7.jpg"></figure></li>
+			<li><figure class="meal-photo"><img src="resources/images/8.jpg"></figure></li>
+		</ul>
 	</div>
 	<div class="container">
 		<h2>HOW IT WORKS — SIMPLE AS 1, 2, 3</h2>
 		<hr>
 		<div class="flex">
-			<div id="iphone">
+			<div class="js--wp-2" id="iphone">
 				<img src="resources/images/app-iPhone.png">
 			</div>
 			<div>
@@ -101,7 +106,7 @@
 		<div id="cities">
 			<h2>WE'RE CURRENTLY IN THESE CITIES</h2>
 			<hr>
-			<div class="flex-wrap">
+			<div class="flex-wrap js--wp-3">
 				<div class="city">
 					<img src="resources/images/lisbon-3.jpg">
 					<h3>LISBON</h3>
@@ -164,11 +169,11 @@
 			</div>
 		</div>
 	</div>
-	<div id="plans">
+	<div class="js--section-plans" id="plans">
 		<h2>START EATING HEALTHY TODAY</h2>
 		<hr>
 		<div class="flex-wrap" id="plan-row">
-			<div class="column" id="plan">
+			<div class="column js--wp-4" id="plan">
 					<h3>PREMIUM</h3>
 					<p><span>$399</span>/month</p>
 					<p>That's only 13.30$ per meal</p>
@@ -264,5 +269,11 @@
 				<p>Build with <i class="fa fa-heart" aria-hidden="true"></i>in the beautiful city of Manchester, UK</p>
 			</div>
 		</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+    <script src="resources/vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/script.js"></script>
 </body>
 </html>
