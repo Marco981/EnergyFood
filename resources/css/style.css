@@ -1,12 +1,5 @@
-/*
-Orange color: #e67e22
 
-*/
-
-
-/* ----------------------------------------------- */
-/* BASIC SETUP */
-/* ----------------------------------------------- */
+/*----- BASIC SETUP -----*/
 
 * {
     margin: 0;
@@ -33,11 +26,6 @@ body {
     height: 0;
     visibility: hidden;
 }
-
-/* ----------------------------------------------- */
-/* REUSABLE COMPONENTS */
-/* ----------------------------------------------- */
-
 
 .row {
     max-width: 1140px;
@@ -97,7 +85,6 @@ h2:after {
     margin-top: 30px;
 }
 
-/* ----- PARAGRAPHS ----- */
 .long-copy {
     line-height: 145%;
     width: 70%;
@@ -109,8 +96,6 @@ h2:after {
     line-height: 145%;
 }
 
-
-/* ----- ICONS ----- */
 .icon-big {
     font-size: 350%;
     display: block;
@@ -125,14 +110,10 @@ h2:after {
     color: #e67e22;
     font-size: 120%;
     margin-right: 10px;
-
-    /*secrets to align text and icons*/
     line-height: 120%;
     vertical-align: middle;
     margin-top: -5px;
 }
-
-/* ----- LINKS ----- */
 
 a:link,
 a:visited {
@@ -150,7 +131,6 @@ a:active {
     border-bottom: 1px solid transparent;
 }
 
-/* ----- BUTTONS ----- */
 .btn:link,
 .btn:visited,
 input[type=submit] {
@@ -197,13 +177,11 @@ input[type=submit]:active {
 }
 
 
-/* ----------------------------------------------- */
-/* HEADER */
-/* ----------------------------------------------- */
+/*----- HEADER -----*/
 
 header {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hero.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hero.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/hero.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -235,7 +213,6 @@ header {
     margin: 5px 0;
 }
 
-/* Main navi */
 .main-nav {
     float: right;
     list-style: none;
@@ -265,7 +242,7 @@ header {
 }
 
 
-/* Mobile navi */
+/* Mobile nav */
 .mobile-nav-icon {
     float: right;
     margin-top: 30px;
@@ -279,7 +256,7 @@ header {
 }
 
 
-/* Sticky navi */
+/* Sticky nav */
 .sticky {
     position: fixed;
     top: 0;
@@ -301,18 +278,14 @@ header {
 .sticky .logo { display: none; }
 .sticky .logo-black { display: block; }
 
-/* ----------------------------------------------- */
-/* FEATURES */
-/* ----------------------------------------------- */
+/*----- FEATURES -----*/
 
 .section-features .long-copy {
     margin-bottom: 30px;
 }
 
 
-/* ----------------------------------------------- */
-/* MEALS */
-/* ----------------------------------------------- */
+/*----- MEALS -----*/
 
 .section-meals {
     padding: 0;
@@ -356,9 +329,9 @@ header {
 
 
 
-/* ----------------------------------------------- */
-/* HOW IT WORKS SECTION */
-/* ----------------------------------------------- */
+
+/*----- HOW IT WORKS SECTION -----*/
+
 
 .section-steps {
     background-color: #f4f4f4;
@@ -418,9 +391,8 @@ header {
 }
 
 
-/* ----------------------------------------------- */
-/* CITIES */
-/* ----------------------------------------------- */
+/*----- CITIES -----*/
+
 
 .box img {
     width: 100%;
@@ -433,13 +405,12 @@ header {
 }
 
 
-/* ----------------------------------------------- */
-/* TESTIMONIALS */
-/* ----------------------------------------------- */
+
+/*----- TESTIMONIALS -----*/
 
 .section-testimonials {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/back-customers.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/back-customers.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/back-customers.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/back-customers.jpg);
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
@@ -476,9 +447,8 @@ cite img {
 }
 
 
-/* ----------------------------------------------- */
-/* SIGN UP */
-/* ----------------------------------------------- */
+/*----- SIGN UP -----*/
+
 
 .section-plans {
     background-color: #f4f4f4;
@@ -534,9 +504,13 @@ cite img {
 }
 
 
-/* ----------------------------------------------- */
-/* FORM */
-/* ----------------------------------------------- */
+/*----- FORM -----*/
+
+
+.section-form {
+    height: 140vh;
+}
+
 
 .contact-form {
     width: 60%;
@@ -565,9 +539,7 @@ input[type=checkbox] {
 *:focus {outline: none;}
 
 
-/* ----------------------------------------------- */
-/* FOOTER */
-/* ----------------------------------------------- */
+/*----- FOOTER -----*/
 
 footer {
     background-color: #333;
@@ -651,9 +623,9 @@ footer p {
 
 
 
-/* ----------------------------------------------- */
-/* Animations */
-/* ----------------------------------------------- */
+
+/*----- Animations -----*/
+
 
 .js--wp-1,
 .js--wp-2,
