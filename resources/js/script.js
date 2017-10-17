@@ -7,20 +7,21 @@ $(document).ready(function() {
         } else {
             $('nav').removeClass('sticky');
         }
-    }, {
+    }, { 
       offset: '60px;'
     });
 
 
     /* Scroll on buttons */
-    $('.js--scroll-to-plans').click(function () {
-       $('html, body').animate({scrollTop: $('.js--section-plans').offset().top}, 1000);
-    });
+      var scrollLink = $(".js--scroll");
 
-    $('.js--scroll-to-start').click(function () {
-       $('html, body').animate({scrollTop: $('.js--section-features').offset().top}, 1000);
-    });
- 
+  scrollLink.click(function(e){
+    e.preventDefault();
+    $("body,html").animate({
+      scrollTop: $(this.hash).offset().top
+    },1000)
+  });
+
 
     /* Navigation scroll */
     $(function() {
