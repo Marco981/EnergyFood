@@ -186,26 +186,21 @@ header {
     background-position: center;
     height: 100vh;
     background-attachment: fixed;
-    display: grid;
-    grid-template-columns: minmax(1rem,3.5rem) repeat(2,1fr) minmax(1rem,3.5rem);
-    grid-template-rows: 6rem 1fr 1fr 4rem;
-}
-
-nav {
-    grid-column-start: 2;
-    grid-column-end: 4;
-}
-
+    }
 .hero-text-box {
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 3;
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .logo {
     height: 100px;
     width: auto;
-    /*float: left;*/
+    float: left;
     margin-top: 20px;
 }
 
