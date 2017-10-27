@@ -1,3 +1,47 @@
+
+.animated{animation-duration:1s;animation-fill-mode:both;}
+.animated.infinite{animation-iteration-count:infinite;}
+
+.pulse{animation-name:pulse;}
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.fadeIn{animation-name:fadeIn;}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeInUp{animation-name:fadeInUp;}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+
 *{margin:0;padding:0;box-sizing:border-box;}
 html,
 body{background-color:#fff;color:#555;font-family:'Lato', 'Arial', sans-serif;font-weight:300;font-size:20px;text-rendering:optimizeLegibility;overflow-x:hidden;}
